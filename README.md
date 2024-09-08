@@ -8,4 +8,3 @@ Welcome to my personal website! Here you can find:
 - A downloadable **CV** in PDF format
 - A list of my **interests** including AI, machine learning, neuroscience, and web development.
 
-Check out the site: [https://username.github.io](https://username.github.io)
