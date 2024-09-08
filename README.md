@@ -1,5 +1,3 @@
-# ianphilip.github.io
-My Github Repository
 # Ian's Personal Website
 
 Welcome to my personal website! Here you can find:
