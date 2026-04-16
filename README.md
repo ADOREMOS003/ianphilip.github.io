@@ -1,8 +1,9 @@
-# Ian's Personal Website
+# Ian Adoremos Personal Website
 
-Welcome to my personal website! Here you can find:
+This repository hosts my GitHub Pages personal website, including:
 
-- A brief **biography** section introducing myself and my work
-- A downloadable **CV** in PDF format
-- A list of my **interests** including AI, machine learning, neuroscience, and web development.
+- Professional summary and research highlights
+- Research experience and education
+- Selected publications
+- Technical skills overview
 
