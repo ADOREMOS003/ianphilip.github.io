@@ -12,14 +12,19 @@
 </head>
 <body>
   <header class="hero">
-    <div class="container">
-      <h1>Ian Adoremos</h1>
-      <p class="tagline">Graph ML - Computational Biology - Translational Data Science</p>
-      <p class="contact">
-        <a href="tel:+17033469486">703 346 9486</a>
-        <span>|</span>
-        <a href="mailto:iadoremos@gmail.com">iadoremos@gmail.com</a>
-      </p>
+    <div class="container hero-grid">
+      <div>
+        <h1>Ian Adoremos</h1>
+        <p class="tagline">Neuroimaging - Computational Psychiatry - Graph ML</p>
+        <p class="contact">
+          <a href="tel:+17033469486">703 346 9486</a>
+          <span>|</span>
+          <a href="mailto:iadoremos@gmail.com">iadoremos@gmail.com</a>
+        </p>
+      </div>
+      <div class="profile-wrap">
+        <img class="profile-image" src="assets/profile.png" alt="Portrait of Ian Adoremos" />
+      </div>
     </div>
   </header>
 
@@ -27,25 +32,31 @@
     <section>
       <h2>Summary</h2>
       <p>
-        I am a Graph ML and computational biology researcher with experience building heterogeneous knowledge
-        graphs, graph neural network models, and reproducible machine learning pipelines for therapeutic target
-        discovery, drug repurposing, and translational biomarker research.
+        I am a neuroimaging and computational psychiatry researcher building reproducible, ML-enabled pipelines across
+        multimodal brain data, including resting-state fMRI, EEG, DTI, and PET.
       </p>
       <p>
-        I built multi-omics graph workflows spanning 15+ biomedical databases, applied PyTorch-based graph learning
-        methods to prioritize compounds and genes across complex diseases, and developed real-world data pipelines
-        over electronic health records and genotype arrays for 400,000+ participants in the All of Us Research Program.
+        My work focuses on biomarker discovery, cross-site model generalizability, and provenance-aware scientific
+        automation. I develop end-to-end workflows that connect neuroimaging analysis with transcriptomic, genomic,
+        and real-world clinical data to produce actionable insights for translational neuroscience.
       </p>
     </section>
 
     <section>
-      <h2>Career Highlights</h2>
+      <h2>Research Vision</h2>
+      <p>
+        Integrating multiple omics data with neuroimaging to better understand the brain in health and disease.
+      </p>
+    </section>
+
+    <section>
+      <h2>Neuroimaging Highlights</h2>
       <ul>
-        <li>Built a heterogeneous multi-omics knowledge graph integrating gene-disease, compound-gene, compound-disease, and protein-protein interaction evidence from 15+ biomedical databases.</li>
-        <li>Developed and evaluated graph neural network workflows for candidate prioritization across Alzheimer's Disease, Schizophrenia, Parkinson's Disease, and COPD.</li>
-        <li>Developed a signed GNN model tracing cellular signatures of 3,000+ complex traits by linking PerturbSeq, UK Biobank PheWAS, and WES LoF/GoF summaries.</li>
-        <li>Engineered EHR and genotype-array pipelines over 400,000+ participants (10+ PB) in All of Us for stratification and phenotype discovery.</li>
-        <li>Built reproducible Python, Bash, Docker, and HPC/cloud workflows across transcriptomics, multimodal neuroimaging, and consortium-scale biomedical data.</li>
+        <li>Designed a multi-stage psychosis biotype classification framework in 1,170+ BSNIP subjects integrating EEG, fMRI, PLS cross-modal analysis, DCM, and LDA.</li>
+        <li>Built multi-site neuroimaging machine-learning pipelines in PRoNTo with leave-one-site-out cross-validation and nested hyperparameter selection.</li>
+        <li>Engineered automated PET and resting-state fMRI preprocessing and quality-control workflows in AFNI across concurrent clinical protocols.</li>
+        <li>Developed GUIN, an MCP-based, provenance-aware platform for long-horizon neuroimaging workflow automation in Neurodesk.</li>
+        <li>Applied connectomics and network analysis to ASD DTI/fMRI data and produced publication-grade scientific visualizations for OHBM and PSB presentations.</li>
       </ul>
     </section>
 
@@ -67,8 +78,8 @@
         <p class="meta">Research Associate - Hunter College (CUNY) and Weill Cornell Medical College | Aug 2024 - Jun 2025</p>
         <ul>
           <li>Constructed a heterogeneous multi-omics KG using AMP-AD, LINCS L1000, STRING, UniProtKB, PrimeKG, SIDER, ChEMBL, PubChem, Hetionet, STITCH, and IUPHAR.</li>
-          <li>Developed and adapted SNEA, SDGNN, and SiGAT architectures in PyTorch for link prediction and candidate ranking.</li>
-          <li>Deployed and tuned LLM workflows on Google Cloud Platform with Biomni to integrate Perturb-seq, GWAS summaries, and single-cell genomics for causal analysis.</li>
+          <li>Developed and adapted SNEA, SDGNN, and SiGAT architectures in PyTorch for link prediction and candidate ranking in neurodegenerative and neuropsychiatric disease contexts.</li>
+          <li>Integrated transcriptomic and single-cell genomics evidence with graph learning workflows to prioritize neurologically relevant therapeutic hypotheses.</li>
         </ul>
       </article>
 
@@ -106,24 +117,24 @@
       <h2>Technical Skills</h2>
       <div class="skills-grid">
         <div>
-          <h3>Programming</h3>
-          <p>Python, R, MATLAB, Bash/Unix, LaTeX</p>
+          <h3>Neuroimaging Methods</h3>
+          <p>Resting-state fMRI, EEG, PET, DTI, connectomics, multivariate biomarker modeling, cross-site validation, and neuroimaging QC automation</p>
+        </div>
+        <div>
+          <h3>Neuroinformatics and Reproducibility</h3>
+          <p>MCP-based workflow design, Neurodesk integration, provenance tracking, reproducible pipelines, and scientific workflow orchestration</p>
+        </div>
+        <div>
+          <h3>Machine Learning</h3>
+          <p>PyTorch, Scikit-learn, Keras, TensorFlow, supervised/unsupervised/semi-supervised learning, benchmarking, and robust cross-validation design</p>
+        </div>
+        <div>
+          <h3>Computational Genomics and Multi-omics</h3>
+          <p>Transcriptomics, single-cell genomics, Perturb-seq, GWAS, eQTLs, genotype arrays, and integrative analyses linking molecular and imaging phenotypes</p>
         </div>
         <div>
           <h3>Graph ML and Network Biology</h3>
           <p>Heterogeneous and signed GNNs, biomedical link prediction, candidate prioritization, network analysis, and multi-omics knowledge graph construction</p>
-        </div>
-        <div>
-          <h3>Machine Learning</h3>
-          <p>PyTorch, Scikit-learn, Keras, TensorFlow, supervised/unsupervised/semi-supervised learning, benchmarking, and cross-validation</p>
-        </div>
-        <div>
-          <h3>Biomedical Data Modalities</h3>
-          <p>Transcriptomics, single-cell genomics, Perturb-seq, GWAS, eQTLs, genotype arrays, EHR, resting-state fMRI, EEG, PET, and DTI</p>
-        </div>
-        <div>
-          <h3>AI Systems and Workflow Engineering</h3>
-          <p>MCP-based workflow design, LLM-assisted scientific automation, Biomni, provenance tracking, and reproducible pipeline development</p>
         </div>
         <div>
           <h3>Cloud and Infrastructure</h3>
@@ -135,7 +146,7 @@
 
   <footer>
     <div class="container">
-      <p>Ian Adoremos - Graph ML - Computational Biology - Translational Data Science</p>
+      <p>Ian Adoremos - Neuroimaging - Computational Psychiatry - Graph ML</p>
     </div>
   </footer>
 </body>

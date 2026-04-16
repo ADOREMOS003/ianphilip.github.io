@@ -30,6 +30,13 @@ body {
   padding: 3rem 0 2rem;
 }
 
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1.2rem;
+  align-items: center;
+}
+
 h1 {
   margin: 0;
   font-size: 2.1rem;
@@ -43,6 +50,20 @@ h1 {
 
 .contact {
   margin-top: 0.8rem;
+}
+
+.profile-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-image {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--border);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
 }
 
 a {
@@ -121,6 +142,14 @@ footer {
 }
 
 @media (max-width: 700px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-wrap {
+    justify-content: flex-start;
+  }
+
   .skills-grid {
     grid-template-columns: 1fr;
   }
